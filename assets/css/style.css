@@ -1,0 +1,73 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	color: #444444;
+
+}
+
+
+.jumbotron{
+	background-color: #2A3132;
+	color: lightgrey;
+	font-family: 'Libre Baskerville', serif;
+	margin-top: 12px;
+	margin-bottom: 1%;
+	padding-top: .5%;
+	padding-bottom: 2%;
+}
+
+@media screen and (max-width: 767px){
+	img{
+		width: 50% !important;
+	}
+	.left{
+		padding-top: 20px;
+	}
+
+}
+
+h2{
+	font-family: 'Libre Baskerville', serif;
+	font-weight: bold;
+	color: lightgrey;
+}
+
+h3, h4 {
+	font-family: 'Montserrat', sans-serif;
+	color: lightgrey;
+}
+
+img{
+	border-radius: 6px;
+	width: 100%;
+}
+
+#instName, #maxGuesses, #lettersGuessed, #wins, #losses{
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.left{
+	background-color: #336b87;
+	border-radius: 6px;
+	margin-bottom: 12px;
+}
+
+.right{
+	padding-right: 0;
+	margin-bottom: 12px;
+}
+
+.row{
+	border-radius: 6px;
+}
+
+
+.row.match-my-cols {
+    overflow: hidden; 
+}
+
+.row.match-my-cols [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+
+}
